@@ -1,0 +1,38 @@
+{
+   "tools": [
+    {
+     "name": "EduChain MCQ Generator",
+      "description": "Generates multiple-choice questions using EduChain",
+      "url": "http://127.0.0.1:8000/generate_mcqs",
+      "method": "POST",
+      "params": {
+        "topic": "string",
+        "num": "integer"
+      }
+    },
+    {
+     "name": "EduChain Lesson Planner",
+      "description": "Creates a lesson plan for any subject using EduChain",
+      "url": "http://127.0.0.1:8000/lesson_plan",
+      "method": "POST",
+      "params": {
+        "topic": "string",
+        "grade_level": "string",
+        "custom_instructions": "string"
+      }
+    },
+    {
+  "name": "EduChain Flashcard Generator",
+  "description": "Generates flashcards for a topic using EduChain",
+  "url": "http://127.0.0.1:8000/generate_flashcards",
+  "method": "POST",
+  "params": {
+    "topic": "string",
+    "difficulty_level": "string"
+  }
+    }
+   ] 
+}
+
+
+

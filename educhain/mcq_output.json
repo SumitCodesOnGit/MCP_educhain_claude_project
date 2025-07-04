@@ -1,0 +1,59 @@
+{
+  "questions": [
+    {
+      "question": "What is the correct file extension for Python files?",
+      "answer": ".py",
+      "explanation": "Python files are saved with the .py extension, which indicates that the file contains Python code.",
+      "options": [
+        ".py",
+        ".python",
+        ".pyt",
+        ".txt"
+      ]
+    },
+    {
+      "question": "Which of the following is a valid variable name in Python?",
+      "answer": "my_variable",
+      "explanation": "Variable names in Python can include letters, numbers, and underscores, but cannot start with a number.",
+      "options": [
+        "my variable",
+        "my-variable",
+        "my_variable",
+        "1st_variable"
+      ]
+    },
+    {
+      "question": "What is the output of the following code: print(type(5))?",
+      "answer": "<class 'int'>",
+      "explanation": "The type function returns the data type of the object, and 5 is an integer.",
+      "options": [
+        "<class 'str'>",
+        "<class 'int'>",
+        "<class 'float'>",
+        "<class 'bool'>"
+      ]
+    },
+    {
+      "question": "Which built-in function can be used to get the length of a list?",
+      "answer": "len()",
+      "explanation": "The len() function returns the number of items in an object, such as a list.",
+      "options": [
+        "length()",
+        "count()",
+        "len()",
+        "size()"
+      ]
+    },
+    {
+      "question": "What does the 'def' keyword do in Python?",
+      "answer": "Defines a function",
+      "explanation": "The 'def' keyword is used to define a new function in Python.",
+      "options": [
+        "Declares a variable",
+        "Defines a function",
+        "Creates a class",
+        "Imports a module"
+      ]
+    }
+  ]
+}

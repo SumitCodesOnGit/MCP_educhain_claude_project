@@ -1,0 +1,59 @@
+{
+  "questions": [
+    {
+      "question": "What is the output of the following code?\n\nfor i in range(3):\n    print(i)\n\n",
+      "answer": "0\n1\n2",
+      "explanation": "The 'range(3)' generates numbers from 0 to 2. The loop prints each number on a new line.",
+      "options": [
+        "0\n1\n2",
+        "1\n2\n3",
+        "0\n1\n2\n3",
+        "3\n2\n1"
+      ]
+    },
+    {
+      "question": "Which of the following loops will iterate over each character in the string 'hello'?",
+      "answer": "for char in 'hello':",
+      "explanation": "This loop assigns each character of the string 'hello' to the variable 'char' in each iteration.",
+      "options": [
+        "for char in 'hello':",
+        "for i in range(len('hello')):",
+        "while char in 'hello':",
+        "for i in 'hello':"
+      ]
+    },
+    {
+      "question": "What keyword is used to exit a loop in Python?",
+      "answer": "break",
+      "explanation": "The 'break' keyword immediately ends the loop, regardless of the iteration condition.",
+      "options": [
+        "exit",
+        "stop",
+        "break",
+        "return"
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'continue' statement in a loop?",
+      "answer": "To skip the current iteration and continue with the next one.",
+      "explanation": "'continue' allows the loop to skip the rest of the code inside the loop for the current iteration and move on to the next iteration.",
+      "options": [
+        "To exit the loop",
+        "To skip the current iteration and continue with the next one.",
+        "To pause the loop",
+        "To repeat the current iteration"
+      ]
+    },
+    {
+      "question": "What will be the output of the following code?\n\ncount = 0\nwhile count < 3:\n    print(count)\n    count += 1\n\n",
+      "answer": "0\n1\n2",
+      "explanation": "The while loop will continue to execute as long as 'count' is less than 3, printing 0, 1, and 2.",
+      "options": [
+        "0\n1\n2",
+        "0\n1\n2\n3",
+        "1\n2\n3",
+        "3\n2\n1"
+      ]
+    }
+  ]
+}

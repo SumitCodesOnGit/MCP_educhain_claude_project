@@ -1,0 +1,55 @@
+{
+  "title": "Machine Learning Flashcards",
+  "flashcards": [
+    {
+      "front": "What is Machine Learning?",
+      "back": "A subset of artificial intelligence that enables computers to learn from data and improve over time without being explicitly programmed.",
+      "explanation": "Machine Learning algorithms use statistical techniques to give computers the ability to 'learn' from data."
+    },
+    {
+      "front": "What are supervised and unsupervised learning?",
+      "back": "Supervised learning uses labeled data to train models, while unsupervised learning uses unlabeled data to find patterns.",
+      "explanation": "In supervised learning, the model is trained on a known input-output mapping, whereas unsupervised learning identifies hidden structures in data."
+    },
+    {
+      "front": "What is overfitting?",
+      "back": "A modeling error that occurs when a machine learning model learns the training data too well, including its noise and outliers.",
+      "explanation": "Overfitting leads to poor generalization to new data, meaning the model performs well on training data but poorly on unseen data."
+    },
+    {
+      "front": "Define 'feature' in the context of machine learning.",
+      "back": "A feature is an individual measurable property or characteristic used as input for a model.",
+      "explanation": "Features are crucial for model performance, as they directly affect the predictions made by the algorithm."
+    },
+    {
+      "front": "What is a confusion matrix?",
+      "back": "A table used to evaluate the performance of a classification algorithm by comparing predicted and actual values.",
+      "explanation": "The confusion matrix provides insights into the types of errors made by the classifier, including false positives and false negatives."
+    },
+    {
+      "front": "What is 'training data'?",
+      "back": "A dataset used to train a machine learning model, allowing it to learn patterns and make predictions.",
+      "explanation": "The quality and quantity of training data significantly impact the model's accuracy and effectiveness."
+    },
+    {
+      "front": "What is a neural network?",
+      "back": "A computational model inspired by the human brain, consisting of interconnected nodes (neurons) that process data.",
+      "explanation": "Neural networks are particularly effective for complex tasks like image and speech recognition."
+    },
+    {
+      "front": "What does 'cross-validation' mean?",
+      "back": "A technique used to assess how the results of a statistical analysis will generalize to an independent dataset.",
+      "explanation": "Cross-validation helps prevent overfitting by validating the model on different subsets of the training data."
+    },
+    {
+      "front": "What is 'gradient descent'?",
+      "back": "An optimization algorithm used to minimize the loss function in machine learning models by iteratively adjusting parameters.",
+      "explanation": "Gradient descent helps find the best parameters for a model by following the steepest descent of the loss function."
+    },
+    {
+      "front": "What is 'ensemble learning'?",
+      "back": "A machine learning technique that combines multiple models to improve overall performance.",
+      "explanation": "Ensemble methods, like bagging and boosting, can lead to more accurate and robust predictions than individual models."
+    }
+  ]
+}

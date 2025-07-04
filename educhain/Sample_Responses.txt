@@ -1,0 +1,48 @@
+Sample MCP Responses Log
+Generated on: 2025-07-04 17:23:46.528796
+
+==================================================
+Prompt: Generate 5 multiple-choice questions on Python loops.
+Endpoint: http://127.0.0.1:8000/generate_mcqs
+Payload:
+{
+  "topic": "Python loops",
+  "num": 5
+}
+Response Summary:
+- 5 MCQs generated
+- Sample Question: What is the output of the following code?
+
+for i in range(3):
+    print(i)
+
+
+Saved to: generate_5_multiple-choice_questions_on_python_loops._response.json
+
+==================================================
+Prompt: Provide a lesson plan for teaching algebra.
+Endpoint: http://127.0.0.1:8000/lesson_plan
+Payload:
+{
+  "topic": "Algebra",
+  "grade_level": "9",
+  "custom_instructions": "Make it interactive with real-world examples"
+}
+Response Summary:
+- Lesson Title: Exploring Algebra: The Language of Mathematics
+- Grade Level: N/A
+Saved to: provide_a_lesson_plan_for_teaching_algebra._response.json
+
+==================================================
+Prompt: Generate flashcards on Machine Learning
+Endpoint: http://127.0.0.1:8000/generate_flashcards
+Payload:
+{
+  "topic": "Machine Learning",
+  "difficulty_level": "Intermediate"
+}
+Response Summary:
+- Lesson Title: Machine Learning Flashcards
+- Grade Level: N/A
+Saved to: generate_flashcards_on_machine_learning_response.json
+
